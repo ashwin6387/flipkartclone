@@ -20,7 +20,7 @@ button.normal {
 
 button.white {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 580;
     padding: 11px 18px;
     color: #fff;
     background-color: transparent;
@@ -32,10 +32,11 @@ button.white {
 
 #header {
     display: flex;
+    width: 80%;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
-    background: #fff;
+    padding: 20px 85px;
+    background: red;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
@@ -85,9 +86,9 @@ button.white {
 }
 
 #hero {
-    background-image: url('../img/banner/1.jpg');
+    background-image: url('../img/banner/1.jpeg');
     height: 90vh;
-    width: 88.1%;
+    width: 80%;
     margin: 0 5px;
     background-color: aliceblue;
     background-size: cover;
@@ -303,6 +304,7 @@ button.white {
 
 #sm-banner {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 50px;
