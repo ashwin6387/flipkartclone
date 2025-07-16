@@ -32,16 +32,18 @@ button.white {
 
 #header {
     display: flex;
-    width: 80%;
+    width: 80;
     align-items: center;
     justify-content: space-between;
     padding: 20px 85px;
+    margin: -8px;
     background: red;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
     position: sticky;
-    top: 0;
-    left: 0;
+    top: 00px;
+    left: 0px;
+    right: 0px;
 }
 
 #navbar {
@@ -88,8 +90,8 @@ button.white {
 #hero {
     background-image: url('../img/banner/1.jpeg');
     height: 90vh;
-    width: 80%;
-    margin: 0 5px;
+    width: 87%;
+    margin: 0px 0px;
     background-color: aliceblue;
     background-size: cover;
     background-position: top 25% right 0;
@@ -199,19 +201,20 @@ button.white {
 #product1 .pro-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 5px;
     flex-wrap: wrap;
 }
 
 #product1 .pro {
     width: 23%;
+    height: 400px;
     min-width: 250px;
-    padding: 10px 12px;
+    padding: 5px 5px;
     border: 1px solid #646060;
     border-radius: 25px;
     cursor: product;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    margin: 15px 0px;
+    margin: 10px 0px;
     transition: 0.2s ease;
     position: relative;
 }
@@ -223,6 +226,7 @@ button.white {
 #product1 .pro img {
     width: 100%;
     border-radius: 20px;
+    height: 60%;
 }
 
 
@@ -237,7 +241,7 @@ button.white {
 }
 
 #product1 .pro .des h5 {
-    padding-top: 7px;
+    /* padding-top: 0px; */
     color: rgb(32, 7, 201);
     font-size: 14px;
 }
@@ -248,7 +252,7 @@ button.white {
 }
 
 #product1 .pro .des h4 {
-    padding-top: 7px;
+    /* padding-top: 7px; */
     font-size: 15px;
     font-weight: 700;
     color: #088178;
@@ -258,13 +262,13 @@ button.white {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    border-radius: 50px;
-    background-color: #e8f6ea;
+    /* border-radius: 50px; */
+    /* background-color: #e8f6ea; */
     font-weight: 500;
-    color: #088178;
-    border: 1px solid #cce7d0;
+    /* color: #088178; */
+    /* border: 1px solid #cce7d0; */
     position: absolute;
-    bottom: 20px;
+    bottom: 105px;
     right: 10px;
 }
 
@@ -307,7 +311,7 @@ button.white {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px 50px;
+    padding: 10px 2px;
 }
 
 #sm-banner .banner-box {
@@ -320,7 +324,7 @@ button.white {
     height: 45vh;
     background-size: cover;
     background-position: center;
-    padding: 30px;
+    padding: 2px 8px;
 }
 
 #sm-banner .banner-box1 {
@@ -333,7 +337,7 @@ button.white {
     height: 45vh;
     background-size: cover;
     background-position: center;
-    padding: 30px;
+    padding: 2px 8px;
 }
 
 #sm-banner .p1 {
@@ -365,7 +369,7 @@ button.white {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px 50px;
+    padding: 10px 6px;
     margin: 10px 0;
 }
 
@@ -378,8 +382,8 @@ button.white {
     height: 20vh;
     background-size: cover;
     background-position: center;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
 }
 
 #banner3 .banner-box1 {
